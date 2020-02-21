@@ -1,0 +1,157 @@
+/*
+    This is a comment
+*/
+
+
+:root{
+    /* Fonts*/
+    --main-font-primary: 'Quicksand', sans-serif;
+    --main-font-secondary: "Monterrat", sans-serif;
+    --main-font-tertiary: 'Open Sans', sans-serif;
+    
+    /*Colors */
+    --main-color-gray: #485359;
+    --main-color-white: #e9f0f2;
+    --main-color-black: #040404;
+    --main-color-light1: #F2CA99;
+    --main-color-light2: #D97F30;
+    --main-color-dark1: #A64D2D;
+    --main-color-dark2: #024873;
+    
+}
+html {
+    font-size: 0.8rem;
+}
+
+h1{
+    font-size:4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h1,h2{
+    font-family: var(--main-font-primary);
+    color: var(--main-color-white);
+    background-color: var(--main-color-dark2);
+    text-align: center;
+    padding: 20px;
+    
+}
+#header{
+    background-color: var(--main-color-dark2);  
+}
+#sec-nav{
+    font-size: 1rem;
+}
+
+/* Mobile devices*/
+#sec_lan{
+    height: 200vh;
+    font-family: var(--main-font-primary);
+    background-color: var(--main-color-dark1);
+    
+    
+}
+body{
+    background-color: var(--main-color-light1);
+}
+
+/*Mobile devices with landscape*/ 
+@media (min-width: 576px){
+    *{
+        color:black;
+        
+    }
+}
+h3{
+    font-size:3rem;
+}
+
+h3, h4, h5, h6{
+    font-family: var(--main-font-primary);
+    color: var(--main-color-black);
+    text-align:center;
+    margin:25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p{
+    font-family:var(--main-font-secondary);
+    color: var(--main-color-black);
+    margin:25px;
+    font-size: 1rem;
+}
+
+.text_highlight{
+    font-family: var(--main-font-tertiary);
+    color: var(--main-color-light3);
+    
+    
+}
+
+#sec_lan{
+    height: 200vh;
+    background-color: var(--main-color-white);
+}
+
+#sec_abo{
+    height: 100vh;
+    background-color: var(--main-color-white);
+    text-align:center;
+    
+}
+/* unvisited link*/
+#sec_lan a:link{
+    color: var(--main-color-light2);
+}
+
+/* visited link */
+#sec_lan a:visited{
+    color: var(--main-color-light2);
+}
+/* mouse over link - hover */
+#sec_lan a:hover{
+    color: var(--main-color-dark2);
+}
+
+/* selected link*/
+#sec-lan a:active{
+    color: var(--main-color-dark2);
+}
+/* unvisited link*/
+#sec_lan a.btn-primary:link{
+    color: var(--main-color-white);
+    background-color: var(--main-color-light2);
+    border-color: var(--main-color-light2);
+    box-shadow: none;
+}
+#sec_lan a.btn-primary:visited{
+    color: var(--main-color-white);
+    background-color: var(--main-color-light2);
+    border-color: var(--main-color-light2);
+    box-shadow: none;
+}
+#sec_lan a.btn-primary:hover{
+    color: var(--main-color-white);
+    background-color: var(--main-color-dark2);
+    border-color: var(--main-color-light2);
+    box-shadow: none;
+}
+#sec_lan a.btn-primary:active{
+    color: var(--main-color-white);
+    background-color: var(--main-color-dark2);
+    border-color: var(--main-color-light2);
+    box-shadow: none;
+}
+@media (min-width:768px){
+    
+}
+    
+@media (min-width:992px){
+    
+} 
+
+@media (min-width:1200px)
+    
+}
