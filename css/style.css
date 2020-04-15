@@ -28,23 +28,39 @@ h2{
     font-size: 2rem;
     text-align: center;
     padding: 20px;
+    opacity
 }
 
 #subheader{
 /*    color: var(--main-color-dark1);*/
-    padding: 20vh;
+
+     background-color: rgba(255,255,255, 0.7);
+    margin: 30vh;
+    
+}
+#subheader-padding{
+    padding-bottom:10vh
 }
     
 .col-3{
     font-size: 2rem;
-    background-color: var(--main-color-blue);
+    
+
+}
+.navigation_bar{
+      
+    
+}
+#description{
+    
 }
 
-body{
+.banner{
     background-image: url("../img/Computer%20Crop.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     align-items: center;
+   
 }
 
 h3, h4, h5, h6{
