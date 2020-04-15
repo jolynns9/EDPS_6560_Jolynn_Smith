@@ -10,61 +10,41 @@
     --main-font-tertiary: 'Open Sans', sans-serif;
     
     /*Colors */
-    --main-color-gray: #485359;
-    --main-color-white: #e9f0f2;
+    --main-color-blue: #333366;
+    --main-color-white: #ffffff;
     --main-color-black: #040404;
-    --main-color-light1: #F2CA99;
-    --main-color-light2: #D97F30;
-    --main-color-dark1: #A64D2D;
-    --main-color-dark2: #024873;
-    
+    --main-color-light1: #E0A987;
+    --main-color-light2: #6BB347;
+    --main-color-dark1: #664A38;
+    --main-color-dark2: #41662E;
 }
+
 html {
     font-size: 0.8rem;
 }
 
-h1{
-    font-size:4rem;
-}
 h2{
-    font-size: 3rem;
-}
-h1,h2{
     font-family: var(--main-font-primary);
-    color: var(--main-color-white);
-    background-color: var(--main-color-dark2);
+    font-size: 2rem;
     text-align: center;
     padding: 20px;
-    
-}
-#header{
-    background-color: var(--main-color-dark2);  
-}
-#sec-nav{
-    font-size: 1rem;
 }
 
-/* Mobile devices*/
-#sec_lan{
-    height: 200vh;
-    font-family: var(--main-font-primary);
-    background-color: var(--main-color-dark1);
-    
-    
+#subheader{
+/*    color: var(--main-color-dark1);*/
+    padding: 20vh;
 }
+    
+.col-3{
+    font-size: 2rem;
+    background-color: var(--main-color-blue);
+}
+
 body{
-    background-color: var(--main-color-light1);
-}
-
-/*Mobile devices with landscape*/ 
-@media (min-width: 576px){
-    *{
-        color:black;
-        
-    }
-}
-h3{
-    font-size:3rem;
+    background-image: url("../img/Computer%20Crop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
 }
 
 h3, h4, h5, h6{
@@ -80,27 +60,20 @@ p{
     font-family:var(--main-font-secondary);
     color: var(--main-color-black);
     margin:25px;
-    font-size: 1rem;
 }
 
-.text_highlight{
-    font-family: var(--main-font-tertiary);
-    color: var(--main-color-light3);
-    
-    
-}
-
-#sec_lan{
-    height: 200vh;
-    background-color: var(--main-color-white);
+.left-aligned {
+    display:block;
+    margin-left: 10vh;
+    margin-right: auto;
+    width: 20%;
 }
 
 #sec_abo{
-    height: 100vh;
     background-color: var(--main-color-white);
     text-align:center;
-    
 }
+
 /* unvisited link*/
 #sec_lan a:link{
     color: var(--main-color-light2);
@@ -108,7 +81,7 @@ p{
 
 /* visited link */
 #sec_lan a:visited{
-    color: var(--main-color-light2);
+    color: var(--main-color-dark1);
 }
 /* mouse over link - hover */
 #sec_lan a:hover{
@@ -144,14 +117,4 @@ p{
     border-color: var(--main-color-light2);
     box-shadow: none;
 }
-@media (min-width:768px){
-    
-}
-    
-@media (min-width:992px){
-    
-} 
 
-@media (min-width:1200px)
-    
-}
