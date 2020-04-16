@@ -23,12 +23,18 @@ html {
     font-size: 0.8rem;
 }
 
+h1{ 
+    font-family: var(--main-font-primary);
+    text-align: center;
+    margin: 5vh;
+    
+        
+}
 h2{
     font-family: var(--main-font-primary);
     font-size: 2rem;
     text-align: center;
     padding: 20px;
-    opacity
 }
 
 #subheader{
@@ -38,12 +44,17 @@ h2{
     margin: 30vh;
     
 }
+#small-logo-about-me{
+    padding-top: 7vh;
+    
+}
 #subheader-padding{
-    padding-bottom:10vh
+    padding-bottom:5vh
 }
     
-.col-3{
+.col-2{
     font-size: 2rem;
+    text-align: center
     
 
 }
@@ -51,12 +62,19 @@ h2{
       
     
 }
-#description{
-    
+#bio{
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
+#description{
+     max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
 .banner{
-    background-image: url("../img/Computer%20Crop.jpg");
+    background-image: url("../img/lightbackground.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     align-items: center;
@@ -73,7 +91,8 @@ h3, h4, h5, h6{
 }
 
 p{
-    font-family:var(--main-font-secondary);
+    font-family:var(--main-font-tertiary);
+    font-size:1rem;
     color: var(--main-color-black);
     margin:25px;
 }
@@ -90,6 +109,9 @@ p{
     text-align:center;
 }
 
+.headshot{
+    padding:2vh
+}
 /* unvisited link*/
 #sec_lan a:link{
     color: var(--main-color-light2);
